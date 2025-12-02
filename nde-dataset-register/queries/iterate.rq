@@ -1,0 +1,23 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+
+# This - currently rather silly - query will eventually be much more intelligent.
+# Instead of fetching hard-coded datasets from the SPARQL endpoint, it will ask the NDE Dataset Register
+# to retrieve all datasets that are potentially relevant to our platform, e.g. all datasets related to colonial heritage.
+
+# Use a 'scrollable cursor' - https://vos.openlinksw.com/owiki/wiki/VOS/VirtTipsAndTricksHowToHandleBandwidthLimitExceed
+SELECT *
+WHERE {
+  {
+    SELECT ?this
+    WHERE {
+      VALUES ?this {
+        <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects>
+        <https://data.colonialcollections.nl/nmvw/collection-archives>
+        <https://data.colonialcollections.nl/Bronbeek/Stamboeken>
+      }
+      ?this a dcat:Dataset
+    }
+  }
+}
+LIMIT ?_limit
+OFFSET ?_offset

@@ -1,0 +1,66 @@
+name: Update Knowledge Graph with data from the NDE Dataset Register
+
+# Once per day
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+# Run a single workflow at a time
+concurrency:
+  group: knowledge-graph
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout data repository
+        uses: actions/checkout@v4
+        with:
+          path: ./data
+          sparse-checkout: nde-dataset-register
+      - name: Checkout code repository
+        uses: actions/checkout@v4
+        with:
+          path: ./code
+          repository: colonial-heritage/integration-layer
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install app
+        run: |
+          cd ./code
+          npm install --no-progress
+          npx turbo run build --filter=@colonial-collections/graph-create
+      - name: Create graph
+        run: |
+          cd ./data
+          mkdir -p "$RUNNER_TEMP"
+          test -f ./nde-dataset-register/data/data.tar.zst && tar --zstd -xf ./nde-dataset-register/data/data.tar.zst -C "$RUNNER_TEMP"
+          ../code/apps/graph-create/dist/cli.js create \
+            --resource-dir ./nde-dataset-register/resources \
+            --data-file "$RUNNER_TEMP/data.sqlite" \
+            --iterate-endpoint-url "https://triplestore.netwerkdigitaalerfgoed.nl/repositories/registry" \
+            --iterate-query-file ./nde-dataset-register/queries/iterate.rq \
+            --generate-endpoint-url "https://triplestore.netwerkdigitaalerfgoed.nl/repositories/registry" \
+            --generate-query-file ./nde-dataset-register/queries/generate.rq \
+            --generate-batch-size 5000000 \
+            --triplydb-instance-url "${{ vars.TRIPLYDB_INSTANCE_URL }}" \
+            --triplydb-api-token "${{ secrets.TRIPLYDB_API_TOKEN }}" \
+            --triplydb-account "${{ vars.TRIPLYDB_ACCOUNT }}" \
+            --triplydb-dataset "${{ vars.TRIPLYDB_DATASET_KG }}" \
+            --triplydb-service "kg" \
+            --graph-name "https://data.colonialcollections.nl/nde-dataset-register" \
+            --temp-dir "$RUNNER_TEMP"
+      - name: Save changes
+        run: |
+          cd ./data
+          mkdir -p ./nde-dataset-register/data
+          test -f "$RUNNER_TEMP/data.sqlite" && tar --zstd -cf ./nde-dataset-register/data/data.tar.zst -C "$RUNNER_TEMP" data.sqlite
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit --quiet -a -m "Save changes" || true
+          git push --force -u origin
