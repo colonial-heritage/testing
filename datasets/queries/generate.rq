@@ -1,0 +1,62 @@
+###############################
+# Query for generating a search graph with dataset descriptions
+# Source of the query: https://triplestore.netwerkdigitaalerfgoed.nl/sparql?savedQueryName=Full%20dataset%20descriptions%20for%20publisher&owner=admin&execute
+###############################
+
+PREFIX cc: <https://colonialcollections.nl/schema#> # Internal ontology
+PREFIX schema: <https://schema.org/>
+
+CONSTRUCT {
+  ?this a cc:Dataset ;
+    cc:name ?name ;
+    cc:license ?licenseName ;
+    cc:publisher_en ?publisherNameEn ;
+    cc:publisher_nl ?publisherNameNl ;
+    cc:description ?description ;
+    cc:keywords ?keywords .
+}
+WHERE {
+  VALUES ?this {
+    ?_iris
+  }
+
+  ####################
+  # Name
+  ####################
+
+  ?this schema:name ?name
+  FILTER(LANG(?name) = "" || LANGMATCHES(LANG(?name), "en"))
+
+  ####################
+  # License
+  ####################
+
+  ?this schema:license/schema:name ?licenseName
+  FILTER(LANG(?licenseName) = "" || LANGMATCHES(LANG(?licenseName), "en"))
+
+  ####################
+  # Publisher
+  ####################
+
+  ?this schema:publisher/schema:name ?publisherName
+  BIND(IF(LANG(?publisherName) = "en", ?publisherName, ?null) AS ?publisherNameEn)
+  BIND(IF(LANG(?publisherName) = "nl", ?publisherName, ?null) AS ?publisherNameNl)
+
+  ####################
+  # Description
+  ####################
+
+  OPTIONAL {
+    ?this schema:description ?description
+    FILTER(LANG(?description) = "" || LANGMATCHES(LANG(?description), "en"))
+  }
+
+  ####################
+  # Keywords
+  ####################
+
+  OPTIONAL {
+    ?this schema:keywords ?keywords
+    FILTER(LANG(?keywords) = "" || LANGMATCHES(LANG(?keywords), "en"))
+  }
+}
