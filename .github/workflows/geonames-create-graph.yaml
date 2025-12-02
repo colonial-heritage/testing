@@ -1,0 +1,66 @@
+name: Update Knowledge Graph with data from dataset 'GeoNames', based on IRIs in the Knowledge Graph
+
+# Every 3 hours. Don't run it more often; otherwise you might hit
+# GeoNames' hourly and daily request limits - http://www.geonames.org/export/
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+# Run a single workflow at a time
+concurrency:
+  group: knowledge-graph
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout data repository
+        uses: actions/checkout@v4
+        with:
+          path: ./data
+          sparse-checkout: geonames
+      - name: Checkout code repository
+        uses: actions/checkout@v4
+        with:
+          path: ./code
+          repository: colonial-heritage/integration-layer
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install app
+        run: |
+          cd ./code
+          npm install --no-progress
+          npx turbo run build --filter=@colonial-collections/graph-create-geonames
+      - name: Create graph
+        run: |
+          cd ./data
+          mkdir -p "$RUNNER_TEMP"
+          test -f ./geonames/data/data.tar.zst && tar --zstd -xf ./geonames/data/data.tar.zst -C "$RUNNER_TEMP"
+          ../code/apps/graph-create-geonames/dist/cli.js create \
+            --resource-dir ./geonames/resources \
+            --data-file "$RUNNER_TEMP/data.sqlite" \
+            --iterate-endpoint-url "${{ vars.SPARQL_ENDPOINT_URL_KG }}" \
+            --iterate-locations-query-file ./geonames/queries/iterate-locations.rq \
+            --iterate-countries-query-file ./geonames/queries/iterate-countries.rq \
+            --dereference-batch-size 500 \
+            --triplydb-instance-url "${{ vars.TRIPLYDB_INSTANCE_URL }}" \
+            --triplydb-api-token "${{ secrets.TRIPLYDB_API_TOKEN }}" \
+            --triplydb-account "${{ vars.TRIPLYDB_ACCOUNT }}" \
+            --triplydb-dataset "${{ vars.TRIPLYDB_DATASET_KG }}" \
+            --triplydb-service "kg" \
+            --graph-name "https://data.colonialcollections.nl/geonames" \
+            --temp-dir "$RUNNER_TEMP"
+      - name: Save changes
+        run: |
+          cd ./data
+          mkdir -p ./geonames/data
+          test -f "$RUNNER_TEMP/data.sqlite" && tar --zstd -cf ./geonames/data/data.tar.zst -C "$RUNNER_TEMP" data.sqlite
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit --quiet -a -m "Save changes" || true
+          git push --force -u origin
