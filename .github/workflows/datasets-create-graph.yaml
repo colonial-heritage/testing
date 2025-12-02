@@ -4,6 +4,7 @@ name: Update Search Graph with data from dataset 'NDE Dataset Register' in the K
 on:
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch: # Allow manual trigger
 
 # Run a single workflow at a time
 concurrency:
