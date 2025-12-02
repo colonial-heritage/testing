@@ -1,0 +1,43 @@
+name: Update Knowledge Graph and Search Graph when the Data Registry changes
+
+on:
+  push:
+    branches: ["main"]
+    paths: ["data-registry/**"]
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout data repository
+        uses: actions/checkout@v4
+        with:
+          path: ./data
+          sparse-checkout: data-registry
+      - name: Checkout code repository
+        uses: actions/checkout@v4
+        with:
+          path: ./code
+          repository: colonial-heritage/integration-layer
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install app
+        run: |
+          cd ./code
+          npm install --no-progress
+          npx turbo run build --filter=@colonial-collections/data-registry
+      - name: Create graphs
+        run: |
+          cd ./data
+          ../code/apps/data-registry/dist/cli.js upload \
+            --glob-pattern "data-registry/**/*.ttl" \
+            --graph-base-iri "https://data.colonialcollections.nl" \
+            --triplydb-instance-url "${{ vars.TRIPLYDB_INSTANCE_URL }}" \
+            --triplydb-api-token "${{ secrets.TRIPLYDB_API_TOKEN }}" \
+            --triplydb-account "${{ vars.TRIPLYDB_ACCOUNT }}" \
+            --triplydb-dataset "${{ vars.TRIPLYDB_DATASET_KG }}" \
+            --triplydb-service "kg"
