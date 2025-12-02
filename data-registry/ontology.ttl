@@ -1,0 +1,77 @@
+###############################
+# Colonial Collections ontology, used for e.g. publishing nanopublications
+###############################
+
+@prefix : <https://n2t.net/ark:/27023/9819f32405815dc7f2e0ecd9d8a9e604#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://n2t.net/ark:/27023/9819f32405815dc7f2e0ecd9d8a9e604> rdf:type owl:Ontology ;
+    rdfs:label "The Colonial Collections Ontology" .
+
+:Nanopub rdf:type rdfs:Class ;
+    rdfs:label "A nanopublication" .
+
+:ProvenanceEventVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a provenance event in a nanopublication" .
+
+:NameVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a name in a nanopublication" .
+
+:DescriptionVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a description in a nanopublication" .
+
+:TechniqueVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a technique in a nanopublication" .
+
+:MaterialVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a material in a nanopublication" .
+
+:SubjectVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a subject in a nanopublication" .
+
+:TypeVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a type in a nanopublication" .
+
+:CreatorVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a creator in a nanopublication" .
+
+:DateCreatedVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a date of creation in a nanopublication" .
+
+:LocationCreatedVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of a location of creation in a nanopublication" .
+
+:InscriptionVersion1 rdf:type rdfs:Class ;
+    rdfs:label "Version 1 of an inscription in a nanopublication" .
+
+:name a rdfs:Property ;
+    rdfs:label "The name of a cultural heritage object" .
+
+:description a rdfs:Property ;
+    rdfs:label "The description of a cultural heritage object" .
+
+:technique a rdfs:Property ;
+    rdfs:label "The technique used for creating a cultural heritage object" .
+
+:material a rdfs:Property ;
+    rdfs:label "The material of a cultural heritage object" .
+
+:subject a rdfs:Property ;
+    rdfs:label "The subject of a cultural heritage object" .
+
+:type a rdfs:Property ;
+    rdfs:label "The type of a cultural heritage object" .
+
+:creator a rdfs:Property ;
+    rdfs:label "The creator of a cultural heritage object" .
+
+:dateCreated a rdfs:Property ;
+    rdfs:label "The date of creation of a cultural heritage object" .
+
+:locationCreated a rdfs:Property ;
+    rdfs:label "The location of creation of a cultural heritage object" .
+
+:inscription a rdfs:Property ;
+    rdfs:label "The inscription on a cultural heritage object" .
