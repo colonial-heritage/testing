@@ -1,0 +1,42 @@
+name: Update Knowledge Graph with community data from Clerk
+
+# Once per day
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+# Run a single workflow at a time
+concurrency:
+  group: knowledge-graph
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout code repository
+        uses: actions/checkout@v4
+        with:
+          repository: colonial-heritage/integration-layer
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install app
+        run: |
+          npm install --no-progress
+          npx turbo run build --filter=@colonial-collections/graph-create-communities
+      - name: Create graph
+        env:
+          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+        run: |
+          ./apps/graph-create-communities/dist/cli.js create \
+            --resource-dir "$RUNNER_TEMP" \
+            --triplydb-instance-url "${{ vars.TRIPLYDB_INSTANCE_URL }}" \
+            --triplydb-api-token "${{ secrets.TRIPLYDB_API_TOKEN }}" \
+            --triplydb-account "${{ vars.TRIPLYDB_ACCOUNT }}" \
+            --triplydb-dataset "${{ vars.TRIPLYDB_DATASET_KG }}" \
+            --triplydb-service "kg" \
+            --graph-name "https://data.colonialcollections.nl/communities" \
+            --temp-dir "$RUNNER_TEMP"
