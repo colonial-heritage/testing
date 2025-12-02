@@ -1,0 +1,12 @@
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://colonialcollections.nl/schema#Dataset> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://colonialcollections.nl/schema#name> "Colonial Objects" .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://colonialcollections.nl/schema#license> "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://colonialcollections.nl/schema#description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/rce/colonial-objects/-/pipelines)" .
+<https://data.colonialcollections.nl/Bronbeek/Stamboeken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://colonialcollections.nl/schema#Dataset> .
+<https://data.colonialcollections.nl/Bronbeek/Stamboeken> <https://colonialcollections.nl/schema#name> "Stamboeken" .
+<https://data.colonialcollections.nl/Bronbeek/Stamboeken> <https://colonialcollections.nl/schema#license> "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication" .
+<https://data.colonialcollections.nl/Bronbeek/Stamboeken> <https://colonialcollections.nl/schema#description> "Dataset Stamboeken of Bronbeek. It contains information from a colonial context." .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://colonialcollections.nl/schema#Dataset> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://colonialcollections.nl/schema#name> "NMVW Collection Archives" .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://colonialcollections.nl/schema#license> "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication" .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://colonialcollections.nl/schema#description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
