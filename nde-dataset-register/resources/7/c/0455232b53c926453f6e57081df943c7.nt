@@ -94,12 +94,12 @@ _:b0_bn23833 <https://schema.org/encodingFormat> "text/turtle" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn1094358494091157069 .
-_:b0_bn1094358494091157069 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.ttl.gz> .
-_:b0_bn1094358494091157069 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/text/turtle> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn1027377825764317182 .
+_:b0_bn1027377825764317182 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.nt.gz> .
+_:b0_bn1027377825764317182 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-triples> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -107,12 +107,12 @@ _:b0_bn1094358494091157069 <https://schema.org/encodingFormat> <https://www.iana
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn1047692145731055355 .
-_:b0_bn1047692145731055355 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.jsonld.gz> .
-_:b0_bn1047692145731055355 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/ld+json> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn611609862546859361 .
+_:b0_bn611609862546859361 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.ttl.gz> .
+_:b0_bn611609862546859361 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/text/turtle> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -120,12 +120,12 @@ _:b0_bn1047692145731055355 <https://schema.org/encodingFormat> <https://www.iana
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn1094358494091157687 .
-_:b0_bn1094358494091157687 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.nq.gz> .
-_:b0_bn1094358494091157687 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-quads> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn648254479140348834 .
+_:b0_bn648254479140348834 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.jsonld.gz> .
+_:b0_bn648254479140348834 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/ld+json> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -133,12 +133,12 @@ _:b0_bn1094358494091157687 <https://schema.org/encodingFormat> <https://www.iana
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn1047692145731055558 .
-_:b0_bn1047692145731055558 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.nt.gz> .
-_:b0_bn1047692145731055558 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-triples> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn680106984883966871 .
+_:b0_bn680106984883966871 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.nq.gz> .
+_:b0_bn680106984883966871 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-quads> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -146,12 +146,12 @@ _:b0_bn1047692145731055558 <https://schema.org/encodingFormat> <https://www.iana
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn246517945241434496 .
-_:b0_bn246517945241434496 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.trig.gz> .
-_:b0_bn246517945241434496 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/trig> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn280676516853051354 .
+_:b0_bn280676516853051354 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.trig.gz> .
+_:b0_bn280676516853051354 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/trig> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -159,7 +159,7 @@ _:b0_bn246517945241434496 <https://schema.org/encodingFormat> <https://www.iana.
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn23827 .
@@ -172,7 +172,7 @@ _:b0_bn23827 <https://schema.org/encodingFormat> "application/n-quads" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn23828 .
@@ -185,7 +185,7 @@ _:b0_bn23828 <https://schema.org/encodingFormat> "text/turtle" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn23825 .
@@ -198,7 +198,7 @@ _:b0_bn23825 <https://schema.org/encodingFormat> "application/trig" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn23829 .
@@ -211,7 +211,7 @@ _:b0_bn23829 <https://schema.org/encodingFormat> "application/ld+json" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> <https://data.colonialcollections.nl/nmvw/collection-archives/sparql> .
@@ -224,7 +224,7 @@ _:b0_bn23829 <https://schema.org/encodingFormat> "application/ld+json" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/publisher> <https://data.colonialcollections.nl/nmvw> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/description> "This dataset is published by a TriplyETL pipeline: [internal link](https://git.triply.cc/customers/nmvw/collection-archives/-/pipelines)\n\nThis is the dataset for NMVW." .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn23826 .
@@ -240,9 +240,9 @@ _:b0_bn23826 <https://schema.org/encodingFormat> "application/n-triples" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn967546446992669538 .
-_:b0_bn967546446992669538 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.jsonld.gz> .
-_:b0_bn967546446992669538 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/ld+json> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn648254479140348476 .
+_:b0_bn648254479140348476 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.ttl.gz> .
+_:b0_bn648254479140348476 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/text/turtle> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -253,9 +253,9 @@ _:b0_bn967546446992669538 <https://schema.org/encodingFormat> <https://www.iana.
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn590853148683791772 .
-_:b0_bn590853148683791772 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.nt.gz> .
-_:b0_bn590853148683791772 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-triples> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn793965507481974078 .
+_:b0_bn793965507481974078 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.jsonld.gz> .
+_:b0_bn793965507481974078 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/ld+json> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -266,9 +266,9 @@ _:b0_bn590853148683791772 <https://schema.org/encodingFormat> <https://www.iana.
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn596065370818785363 .
-_:b0_bn596065370818785363 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.ttl.gz> .
-_:b0_bn596065370818785363 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/text/turtle> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn533683575834083011 .
+_:b0_bn533683575834083011 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.nq.gz> .
+_:b0_bn533683575834083011 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-quads> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -279,9 +279,9 @@ _:b0_bn596065370818785363 <https://schema.org/encodingFormat> <https://www.iana.
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn590853148683791381 .
-_:b0_bn590853148683791381 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.nq.gz> .
-_:b0_bn590853148683791381 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-quads> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn448642775076159256 .
+_:b0_bn448642775076159256 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.trig.gz> .
+_:b0_bn448642775076159256 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/trig> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -292,9 +292,9 @@ _:b0_bn590853148683791381 <https://schema.org/encodingFormat> <https://www.iana.
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn494888871291571889 .
-_:b0_bn494888871291571889 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.trig.gz> .
-_:b0_bn494888871291571889 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/trig> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn319977218068264857 .
+_:b0_bn319977218068264857 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.nt.gz> .
+_:b0_bn319977218068264857 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-triples> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
