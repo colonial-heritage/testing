@@ -97,9 +97,9 @@ _:b0_bn23833 <https://schema.org/encodingFormat> "text/turtle" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn974530542533272516 .
-_:b0_bn974530542533272516 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.ttl.gz> .
-_:b0_bn974530542533272516 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/text/turtle> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn133880622033046227 .
+_:b0_bn133880622033046227 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.jsonld.gz> .
+_:b0_bn133880622033046227 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/ld+json> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -110,9 +110,9 @@ _:b0_bn974530542533272516 <https://schema.org/encodingFormat> <https://www.iana.
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn1083157329743010641 .
-_:b0_bn1083157329743010641 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.jsonld.gz> .
-_:b0_bn1083157329743010641 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/ld+json> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn955674232908210281 .
+_:b0_bn955674232908210281 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.ttl.gz> .
+_:b0_bn955674232908210281 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/text/turtle> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -123,9 +123,9 @@ _:b0_bn1083157329743010641 <https://schema.org/encodingFormat> <https://www.iana
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn889921698249826849 .
-_:b0_bn889921698249826849 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.nq.gz> .
-_:b0_bn889921698249826849 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-quads> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn896172611951907756 .
+_:b0_bn896172611951907756 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.nq.gz> .
+_:b0_bn896172611951907756 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-quads> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -136,9 +136,9 @@ _:b0_bn889921698249826849 <https://schema.org/encodingFormat> <https://www.iana.
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn158396324904741107 .
-_:b0_bn158396324904741107 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.nt.gz> .
-_:b0_bn158396324904741107 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-triples> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn119425177206439264 .
+_:b0_bn119425177206439264 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.nt.gz> .
+_:b0_bn119425177206439264 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-triples> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -149,9 +149,9 @@ _:b0_bn158396324904741107 <https://schema.org/encodingFormat> <https://www.iana.
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/dateModified> "2025-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/datePublished> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn2054898088506852 .
-_:b0_bn2054898088506852 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.trig.gz> .
-_:b0_bn2054898088506852 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/trig> .
+<https://data.colonialcollections.nl/nmvw/collection-archives> <https://schema.org/distribution> _:b0_bn286200528839134780 .
+_:b0_bn286200528839134780 <https://schema.org/contentUrl> <https://data.colonialcollections.nl/nmvw/collection-archives/download.trig.gz> .
+_:b0_bn286200528839134780 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/trig> .
 <https://data.colonialcollections.nl/nmvw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://data.colonialcollections.nl/nmvw> <https://schema.org/name> "Nationaal Museum van Wereldculturen" .
 <https://data.colonialcollections.nl/nmvw/collection-archives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -240,9 +240,9 @@ _:b0_bn23827 <https://schema.org/encodingFormat> "application/n-quads" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn758187565661113736 .
-_:b0_bn758187565661113736 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.nt.gz> .
-_:b0_bn758187565661113736 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-triples> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn920830914313836890 .
+_:b0_bn920830914313836890 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.ttl.gz> .
+_:b0_bn920830914313836890 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/text/turtle> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -253,9 +253,9 @@ _:b0_bn758187565661113736 <https://schema.org/encodingFormat> <https://www.iana.
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn425572011337475384 .
-_:b0_bn425572011337475384 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.nq.gz> .
-_:b0_bn425572011337475384 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-quads> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn286200528839134454 .
+_:b0_bn286200528839134454 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.nq.gz> .
+_:b0_bn286200528839134454 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-quads> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -266,9 +266,9 @@ _:b0_bn425572011337475384 <https://schema.org/encodingFormat> <https://www.iana.
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn472606457225893793 .
-_:b0_bn472606457225893793 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.trig.gz> .
-_:b0_bn472606457225893793 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/trig> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn286200528839134891 .
+_:b0_bn286200528839134891 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.trig.gz> .
+_:b0_bn286200528839134891 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/trig> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -279,9 +279,9 @@ _:b0_bn472606457225893793 <https://schema.org/encodingFormat> <https://www.iana.
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn542647524470808908 .
-_:b0_bn542647524470808908 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.ttl.gz> .
-_:b0_bn542647524470808908 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/text/turtle> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn277924456164138405 .
+_:b0_bn277924456164138405 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.jsonld.gz> .
+_:b0_bn277924456164138405 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/ld+json> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -292,9 +292,9 @@ _:b0_bn542647524470808908 <https://schema.org/encodingFormat> <https://www.iana.
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/dateModified> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/datePublished> "2023-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/inLanguage> "iso639-1:en" .
-<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn373623557174153225 .
-_:b0_bn373623557174153225 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.jsonld.gz> .
-_:b0_bn373623557174153225 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/ld+json> .
+<https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <https://schema.org/distribution> _:b0_bn133880622033046082 .
+_:b0_bn133880622033046082 <https://schema.org/contentUrl> <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects/download.nt.gz> .
+_:b0_bn133880622033046082 <https://schema.org/encodingFormat> <https://www.iana.org/assignments/media-types/application/n-triples> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
 <https://linkeddata.cultureelerfgoed.nl/rce> <https://schema.org/name> "Rijksdienst voor het Cultureel Erfgoed (RCE)" .
 <https://linkeddata.cultureelerfgoed.nl/rce/colonialobjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
