@@ -1,3 +1,7 @@
+<http://vocab.getty.edu/aat/300404670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.getty.edu/aat/300404670> <http://www.w3.org/2004/02/skos/core#prefLabel> "preferred terms"@en .
+<http://vocab.getty.edu/aat/300404670> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.getty.edu/aat/> .
+<http://vocab.getty.edu/aat/300404670> <http://www.w3.org/2004/02/skos/core#prefLabel> "voorkeurstermen"@nl .
 <http://vocab.getty.edu/aat/300435377> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://vocab.getty.edu/aat/300435377> <http://www.w3.org/2004/02/skos/core#prefLabel> "communities (social groups)"@en .
 <http://vocab.getty.edu/aat/300435377> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.getty.edu/aat/> .
@@ -5,7 +9,3 @@
 <http://vocab.getty.edu/aat/300404621> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://vocab.getty.edu/aat/300404621> <http://www.w3.org/2004/02/skos/core#prefLabel> "repository numbers"@en .
 <http://vocab.getty.edu/aat/300404621> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.getty.edu/aat/> .
-<http://vocab.getty.edu/aat/300404670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://vocab.getty.edu/aat/300404670> <http://www.w3.org/2004/02/skos/core#prefLabel> "preferred terms"@en .
-<http://vocab.getty.edu/aat/300404670> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.getty.edu/aat/> .
-<http://vocab.getty.edu/aat/300404670> <http://www.w3.org/2004/02/skos/core#prefLabel> "voorkeurstermen"@nl .
